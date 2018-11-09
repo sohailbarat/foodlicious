@@ -4,13 +4,6 @@
     font-family: 'Oswald', sans-serif;
 }
 
-body{
-    background-image: url(images/bg-image.jpg);
-    background-repeat: no-repeat; 
-    background-size: cover;
-    min-width: 30%;
-}
-
 #logo, #navigation{
     padding-top: 20px;
 }
@@ -42,7 +35,6 @@ h1:hover{
     font-weight: 600;
 }
 
-
 .hero-image{
     background-image: url(images/hero-image.jpg);
     height: 300px;
@@ -62,7 +54,12 @@ h1:hover{
     padding: 0px 0px 350px 0px;
 }
 
-
+body{
+    background-image: url(images/bg-image.jpg);
+    background-repeat: no-repeat; 
+    background-size: cover;
+    min-width: 30%;
+}
 
 #blogLinks img{
     height: 200px;
@@ -80,7 +77,43 @@ h1:hover{
 
 }
 
+@media (max-width: 573px){
+    h2{
+        padding: 20px 50px 20px 50px;
+        text-align: center; 
+    }
+    #navigation li{
+        width: 100%;
+        text-align: center;
+    }
+    p{
+        padding: 20px 50px 20px 50px;
+        text-align: center; 
+    }
+}
 
+@media (max-width: 767px){
+    h2{
+        padding: 20px 50px 20px 50px;
+        text-align: center; 
+    }
+    p{
+        padding: 20px 50px 20px 50px;
+        text-align: center; 
+    }
+    .hero-image-Bdeat{
+        text-align: center;
+    }
+}
+
+@media (min-width: 768px){
+    h2{
+        padding-left: 40px; 
+    }
+    p{
+        padding-left: 40px; 
+    }
+}
 
 #firstRow{
     padding-top: 80px;
@@ -88,6 +121,10 @@ h1:hover{
 }
 
 #secondRow{
+    padding-bottom: 25px;
+}
+
+#thirdRow, #fourthRow{
     padding-bottom: 25px;
 }
 
@@ -114,8 +151,6 @@ h1:hover{
     padding: 10px 0px 0px 0px; 
     text-decoration: none;
 }
-
-
 #footer{
     background-color: #000;   
 }
