@@ -1,10 +1,45 @@
+*{
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+}
+
+#logo, #navigation{
+    padding-top: 20px;
+}
+
+header{
+    background-color: #fff;
+}
+
+header a:link {
+    color: #fe0000;
+    text-decoration: none;
+}
+
+header a:visited {
+    color: #fe0000;
+}
+
+header a:hover {
+    color: #fff;
+    background-color: #fe0000;
+}
+
+h1{
+    font-family: 'Kumar One Outline', cursive;
+    color: #fe0000;
+}
+
+h1:hover{
+    font-weight: 600;
+}
 
 .hero-image{
     background-image: url(images/hero-image.jpg);
     height: 300px;
     width: 100%;
     max-height: 300px;
-    
 }
 
 .hero-image h2{
@@ -12,15 +47,144 @@
     padding: 100px 0px 0px 0px; 
 }
 
-
-
 .container img1{
     padding: 0px 0px 350px 0px;
 }
 
 body{
     background-image: url(images/bg-image.jpg);
-    background-repeat: no-repeat; 
-    background-size: cover;
+
+}
+
+html{
     min-width: 30%;
+}
+
+#blogLinks img{
+    height: 200px;
+    width: 200px;
+}
+
+.image-shadow {
+    margin: 5px auto;
+    width: 400px;
+    height: 400px;
+    border-radius: 10px;
+    display: block;
+    position: relative;
+    background-size: cover;
+
+}
+
+@media (max-width: 573px){
+    h2{
+        padding: 20px 50px 20px 50px;
+        text-align: center; 
+    }
+    #navigation li{
+        width: 100%;
+        text-align: center;
+    }
+    p{
+        padding: 20px 50px 20px 50px;
+        text-align: center; 
+    }
+}
+
+@media (max-width: 767px){
+    h2{
+        padding: 20px 50px 20px 50px;
+        text-align: center; 
+    }
+    p{
+        padding: 20px 50px 20px 50px;
+        text-align: center; 
+    }
+    #hero-image-Bdeat{
+        align-self: center;
+        text-align: center;
+    }
+}
+
+@media (min-width: 768px){
+    h2{
+        padding-left: 40px; 
+    }
+    p{
+        padding-left: 40px; 
+    }
+}
+
+#firstRow{
+    padding-top: 80px;
+    padding-bottom: 25px;
+}
+
+#secondRow{
+    padding-bottom: 25px;
+}
+
+#thirdRow, #fourthRow{
+    padding-bottom: 25px;
+}
+
+#lastRow{
+    padding-bottom: 80px;
+}
+
+#big-pizza{
+    height: auto;
+    width: 100%;
+}
+
+.jumbotron{
+    padding-top: 50px;
+}
+
+#hero-image-Bdeat{
+    padding-top: 50px;
+}
+
+#hero-image-Bdeat h2, #hero-image-Bdeat i, #hero-image-Bdeat p, #hero-image-Bdeat a{
+    color: #fe0000;
+    padding: 10px 0px 0px 0px; 
+    text-decoration: none;
+}
+
+#footer{
+    background-color: #000;   
+}
+
+#footer li{
+    padding-top: 20px;
+    text-align: right;
+}
+
+#footer h1{
+    color: #fff;
+    padding-top: 20px;
+}
+
+#footer h1:hover{
+    color: #fe0000;
+}
+
+#footer p{
+    padding-top: 25px;
+    color: white;
+    text-align: center;
+}
+
+#footer i{
+    color: white;
+    padding: 20px;
+}
+
+#footer a:link {
+    color: royalblue;
+    text-decoration: none;
+}
+
+#footer i:hover {
+    color: #fe0000;
 }
