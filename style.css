@@ -114,3 +114,42 @@ h1:hover{
     padding: 10px 0px 0px 0px; 
     text-decoration: none;
 }
+
+
+#footer{
+    background-color: #000;   
+}
+
+#footer li{
+    padding-top: 20px;
+    text-align: right;
+}
+
+#footer h1{
+    color: #fff;
+    padding-top: 20px;
+}
+
+#footer h1:hover{
+    color: #fe0000;
+}
+
+#footer p{
+    padding-top: 25px;
+    color: white;
+    text-align: center;
+}
+
+#footer i{
+    color: white;
+    padding: 20px;
+}
+
+#footer a:link {
+    color: royalblue;
+    text-decoration: none;
+}
+
+#footer i:hover {
+    color: #fe0000;
+}
