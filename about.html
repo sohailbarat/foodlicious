@@ -32,6 +32,17 @@
         <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Kumar+One+Outline" rel="stylesheet">
         <title> Foodlicious </title>
+        <script>$('img').each(function() {
+    var deg = $(this).data('rotate') || 0;
+    var rotate = 'rotate(' + deg + 'deg)';
+    $(this).css({ 
+        '-webkit-transform': rotate,
+        '-moz-transform': rotate,
+        '-o-transform': rotate,
+        '-ms-transform': rotate,
+        'transform': rotate 
+    });
+});</script>
     </head>
     <body>
  
@@ -94,7 +105,7 @@
                 <div class="col-md-1">
                 </div>
                 <div class="col-md-3">
-                    <img class="image-shadow" src="images/mark.jpg" />
+                    <img class="image-shadow" src="images/mark.jpg"/>
                 </div>  
                 <div class="col-md-8">
                     <h2> Mark </h2>
@@ -122,7 +133,7 @@
                 <div class="col-md-1">
                 </div>
                 <div class="col-md-3">
-                    <img class="image-shadow" src="images/marko.jpg" />
+                    <img class="image-shadow" src="images/marko.jpg" class="rotate90"/>
                 </div>  
                 <div class="col-md-8">
                     <h2> Marko </h2>

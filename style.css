@@ -40,7 +40,6 @@ h1:hover{
     height: 300px;
     width: 100%;
     max-height: 300px;
-    
 }
 
 .hero-image h2{
@@ -101,7 +100,8 @@ body{
         padding: 20px 50px 20px 50px;
         text-align: center; 
     }
-    .hero-image-Bdeat{
+    #hero-image-Bdeat{
+        align-self: center;
         text-align: center;
     }
 }
@@ -150,6 +150,13 @@ body{
     color: #fe0000;
     padding: 10px 0px 0px 0px; 
     text-decoration: none;
+}
+.rotate90 {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
 }
 #footer{
     background-color: #000;   
