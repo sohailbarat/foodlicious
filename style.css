@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+}
+
+body{
+    background-image: url(images/bg-image.jpg);
+    background-repeat: no-repeat; 
+    background-size: cover;
+    min-width: 30%;
+}
+
+#logo, #navigation{
+    padding-top: 20px;
+}
+
+header{
+    background-color: #fff;
+}
+
+header a:link {
+    color: #fe0000;
+    text-decoration: none;
+}
+
+header a:visited {
+    color: #fe0000;
+}
+
+header a:hover {
+    color: #fff;
+    background-color: #fe0000;
+}
+
+h1{
+    font-family: 'Kumar One Outline', cursive;
+    color: #fe0000;
+}
+
+h1:hover{
+    font-weight: 600;
+}
+
